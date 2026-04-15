@@ -93,7 +93,10 @@
 			<artifactId>junit-jupiter</artifactId>
 			<scope>test</scope>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
 		<!-- PostgreSQL Testcontainer -->
 		<dependency>
 			<groupId>org.testcontainers</groupId>
